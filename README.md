@@ -15,6 +15,9 @@ https://shaeberling.github.io/sfhacks-angular-demo/
 - Install **npm** package manager
    - `npm install -g npm`
    - Follow on-screen instructions
+- Install Angular
+   - `npm install -g @angular/cli`
+   - Check with `ng --version`
 
 ## Build
 Run `npm install` to install all dependencies. Could take a little while.
