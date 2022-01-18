@@ -3,15 +3,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Install prerequisites (Linux, MacOS, Windows-WSL)
  - Install nvm (Node Version Manager)
-  - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
-  - See https://github.com/nvm-sh/nvm#install--update-script for latest instructions.
-  - Check with `nvm --version`
+   - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
+   - See https://github.com/nvm-sh/nvm#install--update-script for latest instructions.
+   - Check with `nvm --version`
 - Install Node.js
-  - `nvm install --lts`
-  - Check with: `node --version`
+   - `nvm install --lts`
+   - Check with: `node --version`
 - Install **npm** package manager
-  - `npm install -g npm`
-  - Follow on-screen instructions
+   - `npm install -g npm`
+   - Follow on-screen instructions
 
 ## Build
 Run `npm install` to install all dependencies. Could take a little while.
