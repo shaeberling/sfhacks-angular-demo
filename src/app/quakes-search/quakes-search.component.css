@@ -1,0 +1,20 @@
+.search-box {
+  background-color: #dbb;
+  padding: 2em;
+  display: inline-block;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0 0 10px;
+}
+
+#btn-search {
+  width: 100%;
+  margin-top: 10px
+}
+
+.search-results-box {
+  margin-top: 20px
+}
+
+.search-results-box > table {
+  display: inline-block;
+}

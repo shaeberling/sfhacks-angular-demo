@@ -1,0 +1,23 @@
+<div class="search-box">
+<h2>Quake search</h2>
+Latitude:
+<input [(ngModel)]="latitude">
+Longitude:
+<input [(ngModel)]="longitude"><br/>
+<button id="btn-search" (click)="onSearch()">Search</button>
+</div>
+
+<div class="search-results-box">
+  <h2>Earthquake results:</h2>
+      <table>
+        <tr>
+          <th>Place</th>
+          <th>Magnitude</th>
+          <th>Time</th>
+        </tr>
+        <tr *ngFor="let quake of quakes">
+          <td><a [href]="quake.url" target="_blank">{{ quake.place }}</a></td>
+          <td>{{ quake.mag }}</td>
+          <td>{{ timeToString(quake.time) }}</td>
+    </table>
+</div>
