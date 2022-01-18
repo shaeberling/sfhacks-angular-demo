@@ -1,6 +1,9 @@
 # SF Hacks 2022: Angular Workshop
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
+## Live demo
+https://shaeberling.github.io/sfhacks-angular-demo/
+
 ## Install prerequisites (Linux, MacOS, Windows-WSL)
  - Install nvm (Node Version Manager)
    - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash`
